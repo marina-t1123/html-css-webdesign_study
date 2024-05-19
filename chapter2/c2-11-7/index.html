@@ -1,0 +1,22 @@
+<!doctype html>
+<!-- Doctype宣言：このページがどのバージョンのHTMLde、どの仕様に合わせて作られているかを記載-->
+<html lang="ja">
+<!-- HTMLの文書。langはwebページの言語設定できる部分。ja=japanese-->
+
+  <head><!-- ページのタイトル、説明文、使用する外部ファイルリンクなどページの状況を記述-->
+    <meta charset="utf-8">
+    <!-- 文字コード設定、これがないと文字化けする。meta=メタ要素 -->
+    <title>フォームを作ろう</title>
+    <!--  ページのタイトル -->
+    <meta name="description" content="ボタンに画像を使いたい場合">
+    <!-- このページについての説明文。検索エンジンでページタイトルと共に表示される部分。-->
+  </head>
+
+  <body>
+    <form action="example.php" method="post" name="content-form">
+      <input type="image" src="images/button.png" alt="送信する">
+      <!-- ボタンに画像を使いたい場合、type属性をimageにして、src属性に使用したい画像のファイルパスを指定する -->
+    </form>
+  </body>
+
+</html>

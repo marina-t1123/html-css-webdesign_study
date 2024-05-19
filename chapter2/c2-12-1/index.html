@@ -1,0 +1,24 @@
+<!doctype html>
+<!-- Doctype宣言：このページがどのバージョンのHTMLde、どの仕様に合わせて作られているかを記載-->
+<html lang="ja">
+<!-- HTMLの文書。langはwebページの言語設定できる部分。ja=japanese-->
+
+  <head><!-- ページのタイトル、説明文、使用する外部ファイルリンクなどページの状況を記述-->
+    <meta charset="utf-8">
+    <!-- 文字コード設定、これがないと文字化けする。meta=メタ要素 -->
+    <title>より使いやすいフォームにしよう</title>
+    <!--  ページのタイトル -->
+    <meta name="description" content="フォームのラベルを作るlabelタグ">
+    <!-- このページについての説明文。検索エンジンでページタイトルと共に表示される部分。-->
+  </head>
+
+  <body>
+    <form action="example.php" method="post" name="content-form">
+      <input type="checkbox" name="travel" value="日本国内" id="japan"> <label for="japan">日本国内</label>
+      <!-- inputタグのid属性の値＝labelタグのfor属性の値　こうすることでフィームとラベルが関連づけられます-->
+      <input type="checkbox" name="travel" value="ヨーロッパ" id="europe"> <label for="europe">ヨーロッパ</label>
+      <input type="checkbox" name="travel" value="東南アジア" id="asia"> <label for="asia">東南アジア</label>
+    </form>
+  </body>
+
+</html>

@@ -1,0 +1,8 @@
+@charset "UTF-8";
+p { /* 1pxのtomato色の実線の指定。 */
+  border-bottom: 2px solid #0bd;
+}
+
+div { /* 実線の指定。上：tanの色、右：#0bdの色、下：tomatoの色、左：#000の色 */
+  border: 5px dotted tomato;
+}

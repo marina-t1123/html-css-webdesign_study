@@ -1,0 +1,9 @@
+p { /* 1pxの実線の指定。必ず、border-widthとstyleは一緒に指定する */
+  border-width: 1px;
+  border-style: solid;
+}
+
+div { /* 線の太さを4pxに指定。上：２本の実線、右：点線、下：１本の実線、左：立体的な山形の線の指定 */
+  border-width: 4px;
+  border-style: double dotted solid ridge;
+}

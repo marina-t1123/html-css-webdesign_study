@@ -1,0 +1,9 @@
+p { /* このスタイルは、太い実線の指定 */
+  border-width: thick; /* 線の太さ thin(細い線) medium(普通の太さ) thick(太い線) */
+  border-style: solid;
+}
+
+div {
+  border-width: 1px 4px 8px 12px;
+  border-style: solid;
+}

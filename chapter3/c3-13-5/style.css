@@ -1,0 +1,10 @@
+@charset "UTF-8";
+#blue {
+  color: #0bd;
+}
+
+.orange {
+  color: #fa2;
+}
+
+/* 同じタグにid="blue"、class="orange"が指定されている場合、ID属性で指定されているプロパティが適応される。（文字色は青になる）*/

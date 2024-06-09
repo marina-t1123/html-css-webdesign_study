@@ -1,0 +1,14 @@
+@charset "UTF-8";
+/* リストマーカー：リスト項目の先頭に表示されるマーク。*/
+/* list-style-position:リストマーカーの表示位置 */
+ul {
+  list-style-position: outside; /* ボックスの外側に表示 */
+}
+
+ol {
+  list-style-position: inside; /* ボックスの内側に表示 */
+}
+
+li {
+  background-color: blue; /* ボックスの表示位置の確認をするための背景色 */
+}

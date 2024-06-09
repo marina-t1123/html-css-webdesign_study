@@ -1,0 +1,19 @@
+@charset "UTF-8";
+/* リストマーカー：リスト項目の先頭に表示されるマーク。*/
+/* list-style-position:リストマーカーに画像を指定する */
+/* 全体のデザインに合わせて違うアイコンや色に変えたい時は、このプロパティを使って画像を指定することができる */
+ul {
+  list-style-image: url(images/star.png); /* ボックスの外側に表示 */
+}
+
+/* リストマーカーに関する装飾をまとめて指定「list-styleプロパティ」リスト
+リストのlist-style-typeプロパティ、list-style-positionプロパティ、list-style-imageプロパティをまとめて記載することができる。
+値は、好きな順番でスペースで区切って指定します。
+
+ul {
+  list-style: square url(images/star.png) outside;
+  この指定の仕方は、画像の指定が優先される。
+  だから、squareではリストマーカーは表示されない。
+}
+*/
+

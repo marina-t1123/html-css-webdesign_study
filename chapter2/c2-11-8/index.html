@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="セレクトボックス">
+    <title>セレクトボックス</title>
+</head>
+<body>
+    <select name="bloodtype" multiple>
+    <!-- multiple属性：複数項目を選択可能にする。(mac：コマンドキー、ShiftキーorCtrlキー) -->
+        <option value="A">A</option>
+        <option value="B">B</option>
+        <option value="O">O</option>
+        <option value="AB">AB</option>
+        <option value="不明" selected>不明</option>
+    </select>
+</body>
+
+<!-- Emmet記述 -->
+<!-- select[name="bloodtype"]>option[value=""]*5 -->
+<!-- 改行うまく出来た。selected属性は追加なし。 -->
+</html>

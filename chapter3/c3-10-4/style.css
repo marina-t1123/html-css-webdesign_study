@@ -1,0 +1,12 @@
+@charset "UTF-8";
+div {
+    background-image: url(images/bg-airplane.jpg);
+    background-repeat: no-repeat; /* 画像は繰り返さない */
+    background-size: cover; /* corver:表示領域を埋め尽くすように設定 */
+    /* contein:画像の縦横比を保持したまま、画像がすべて表示されるように表示 */
+    height: 100vh;
+}
+p {
+    text-align: center;
+    padding-top: 30px;    
+}

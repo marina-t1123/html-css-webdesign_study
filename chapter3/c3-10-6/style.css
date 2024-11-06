@@ -1,0 +1,8 @@
+@charset "UTF-8";
+body {
+    background-image: url(images/bg.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    /* background-position: 30px 80px; */
+    /* 「30px 80px」だと、左から30px、上から80px移動させる指定 */
+}

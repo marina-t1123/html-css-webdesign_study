@@ -1,0 +1,11 @@
+@charset "UTF-8";
+body {
+    background-image: url(images/bg.png);
+    background-repeat: repeat-y;
+    /* 背景画像の繰り返し処理のプロパティ */
+    /* repeat: 縦・横ともに繰り返して表示
+       repeat-x:横方向に繰り返して表示
+       repeat-y:縦方向に繰り返して表示
+       no-repeat:繰り返さない
+    */
+}

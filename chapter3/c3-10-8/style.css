@@ -1,0 +1,7 @@
+@charset "UTF-8";
+div {
+    background: #70a2dc url(images/bg-airplane.jpg) no-repeat center bottom/cover;
+    /* backgroundプロパティで、背景色、背景画像、サイズ、繰り返し表示など一括で指定できる。 
+       sizeの値は、「background-position」の直後に「/(スラッシュ)」で区切る。 */
+    height: 100vh;
+}

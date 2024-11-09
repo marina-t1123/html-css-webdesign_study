@@ -1,7 +1,9 @@
 @charset "UTF-8";
 p {
-  color: #999;
+  border-width: thick; /* 太い線 */
+  border-style: solid; /*　線のスタイル：実線 */
 }
-.blue {
-  color: #0bd;
+div {
+  border-width: 1px 4px 8px 12px; /* 上、右、下、左 での線の太さ */
+  border-style: solid; /* 線のスタイル：実線 */
 }

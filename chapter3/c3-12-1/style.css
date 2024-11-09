@@ -1,10 +1,6 @@
 @charset "UTF-8";
-/* リストマーカー：リスト項目の先頭に表示されるマーク。*/
-/* list-style-type:リストマーカーの種類 */
-ul {
-  list-style-type: square; /* 黒四角の指定 */
-}
-
-ol {
-  list-style-type: hiragana; /* ひらがなの指定 */
+div {
+  background: #0bd;
+  margin-top: 30px;
+  margin-left: 100px;
 }

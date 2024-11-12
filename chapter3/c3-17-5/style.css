@@ -1,0 +1,15 @@
+@charset "UTF-8";
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* fr:franction（比率）。親要素からみた子要素の大きさを具体的な数値ではなく割合で指定。*/
+  /* grid-template-column:各グリッドアイテム(.item)の幅を指定すると、横並びに設定できる */
+  /* １列にグリッドアイテムが複数必要な場合は、半角スペースで区切って必要なグリッドアイテムの数だけ幅を指定する */
+  /* 上記の値の指定だと、「一列に横幅200pxのグリッドアイテムを3つ並べる」 */
+  gap: 10px; /* グリッドアイテム同士の余白を設定。flexboxアイテムにも使用可能。 */
+  grid-template-rows: 200px 200px; /* グリッドアイテムの高さ。列が複数ある場合は、半角スペースで区切る。*/
+}
+.item {
+  background: #0bd;
+  color: #fff;
+  padding: 10px;
+}

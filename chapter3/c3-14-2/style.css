@@ -1,0 +1,12 @@
+@charset "UTF-8";
+ul {
+  list-style-position: outside; /*　外側の指定 */
+}
+
+ol {
+  list-style-position: inside; /* 内側の指定 */
+}
+
+li {
+  background-color: tomato;
+}

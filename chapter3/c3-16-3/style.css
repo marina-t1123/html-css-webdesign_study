@@ -1,0 +1,11 @@
+@charset "UTF-8";
+.container {
+  display: flex; /*　子要素の横並び */
+  flex-direction: row-reverse; /* 子要素の並ぶ向き・右から左に並べる */
+}
+.item {
+  background: #0bd;
+  color: #fff;
+  margin: 10px;
+  padding: 10px;
+}
